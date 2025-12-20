@@ -80,15 +80,6 @@ const sampleListings = [
     location: "Nainital, Uttarakhand",
     country: "India",
   },
-
-  {
-    title: "Riverside Lodge",
-    description: "Stay beside a peaceful flowing river",
-    image: "https://images.unsplash.com/photo-1500534314209-a26db0f5a1f5",
-    price: 1900,
-    location: "Rishikesh, Uttarakhand",
-    country: "India",
-  },
   {
     title: "Beach Hut",
     description: "Simple beach hut with sea breeze",
