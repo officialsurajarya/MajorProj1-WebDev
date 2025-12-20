@@ -27,8 +27,10 @@ app.use(methodOverride("_method"));
 app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
+// Home Route
 app.get("/", (req, res) => {
-  res.send("Hi, I am root");
+  // res.send("Hi, I am root");
+  res.redirect("/listings");
 });
 
 // Index Route
